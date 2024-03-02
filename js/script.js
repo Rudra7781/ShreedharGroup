@@ -5,8 +5,8 @@ let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
    navbar.classList.toggle('active');
-   searchForm.classList.remove('active');
-   loginForm.classList.remove('active');
+   // searchForm.classList.remove('active');
+   // loginForm.classList.remove('active');
 };
 
 // document.querySelector('#search-btn').onclick = () =>{
@@ -31,9 +31,9 @@ document.querySelector('#menu-btn').onclick = () => {
 
 window.onscroll = () => {
    navbar.classList.remove('active');
-   searchForm.classList.remove('active');
-   loginForm.classList.remove('active');
-   contactInfo.classList.remove('active');
+   // searchForm.classList.remove('active');
+   // loginForm.classList.remove('active');
+   // contactInfo.classList.remove('active');
 }
 
 var swiper = new Swiper(".home-slider", {
@@ -44,7 +44,7 @@ var swiper = new Swiper(".home-slider", {
       prevEl: ".swiper-button-prev",
    },
    autoplay: {
-      delay: 2100, // Adjust the delay as needed (in milliseconds)
+      delay: 2300, // Adjust the delay as needed (in milliseconds)
       disableOnInteraction: false, // Set to false if you want the autoplay to continue even when the user interacts with the slider
    },
    speed: 1000,
@@ -67,10 +67,15 @@ var swiper = new Swiper(".reviews-slider", {
    },
 });
 
-var swiper = new Swiper(".blogs-slider", {
+var swiper = new Swiper(".project-slider", {
    loop: true,
    grabCursor: true,
-   spaceBetween: 20,
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
+   spaceBetween: 39,
+
    breakpoints: {
       640: {
          slidesPerView: 1,
@@ -82,6 +87,11 @@ var swiper = new Swiper(".blogs-slider", {
          slidesPerView: 3,
       },
    },
+   autoplay: {
+      delay: 1500, // Adjust the delay as needed (in milliseconds)
+      disableOnInteraction: true, // Set to false if you want the autoplay to continue even when the user interacts with the slider
+   },
+   speed: 1000,
 });
 
 var swiper = new Swiper(".logo-slider", {
