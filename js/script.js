@@ -44,7 +44,7 @@ var swiper = new Swiper(".home-slider", {
       prevEl: ".swiper-button-prev",
    },
    autoplay: {
-      delay: 2300, // Adjust the delay as needed (in milliseconds)
+      delay: 3000, // Adjust the delay as needed (in milliseconds)
       disableOnInteraction: false, // Set to false if you want the autoplay to continue even when the user interacts with the slider
    },
    speed: 1000,
@@ -87,10 +87,10 @@ var swiper = new Swiper(".project-slider", {
          slidesPerView: 3,
       },
    },
-   autoplay: {
-      delay: 1500, // Adjust the delay as needed (in milliseconds)
-      disableOnInteraction: true, // Set to false if you want the autoplay to continue even when the user interacts with the slider
-   },
+   // autoplay: {
+   //    delay: 1500, // Adjust the delay as needed (in milliseconds)
+   //    disableOnInteraction: true, // Set to false if you want the autoplay to continue even when the user interacts with the slider
+   // },
    speed: 1000,
 });
 
