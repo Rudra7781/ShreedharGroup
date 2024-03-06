@@ -39,10 +39,6 @@ window.onscroll = () => {
 var swiper = new Swiper(".home-slider", {
    loop: true,
    grabCursor: true,
-   navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-   },
    autoplay: {
       delay: 3000, // Adjust the delay as needed (in milliseconds)
       disableOnInteraction: false, // Set to false if you want the autoplay to continue even when the user interacts with the slider
