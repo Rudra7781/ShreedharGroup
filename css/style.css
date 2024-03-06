@@ -434,42 +434,6 @@ section {
   padding: 1rem 0;
 }
 
-/* 
-.home .swiper-button-prev {
-  top: initial;
-  bottom: 0;
-  left: initial;
-  right: 0;
-  height: 7rem;
-  width: 7rem;
-  line-height: 7rem;
-  background: var(--white);
-}
-.home .swiper-button-next {
-  top: initial;
-  bottom: 0;
-  left: initial;
-  right: 0;
-  height: 7rem;
-  width: 7rem;
-  line-height: 7rem;
-  background: var(--white);
-}
-
-.projects .swiper-button-next:hover,
-.projects .swiper-button-prev:hover {
-  background: var(--yellow);
-}
-
-.projects .swiper-button-next::after,
-.projects .swiper-button-prev::after {
-  font-size: 2rem;
-  color: var(--black);
-}
-
-.projects .swiper-button-prev {
-  right: 7rem;
-} */
 
 .about .row {
   display: -webkit-box;
